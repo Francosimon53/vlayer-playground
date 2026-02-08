@@ -55,7 +55,7 @@ export default function Playground() {
         <div className="max-w-[1800px] mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <a href="https://website-nu-tawny-89.vercel.app" className="flex items-center gap-2">
+              <a href="https://vlayer.app" className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold">V</span>
                 </div>
@@ -67,13 +67,19 @@ export default function Playground() {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://docs-nine-theta-28.vercel.app"
+                href="https://app.vlayer.app"
                 className="text-gray-400 hover:text-white transition-colors text-sm"
               >
-                Documentation
+                Dashboard
               </a>
               <a
-                href="https://github.com/vlayer/verification-layer"
+                href="https://docs.vlayer.app"
+                className="text-gray-400 hover:text-white transition-colors text-sm"
+              >
+                Docs
+              </a>
+              <a
+                href="https://github.com/Francosimon53/verification-layer"
                 className="text-gray-400 hover:text-white transition-colors text-sm flex items-center gap-1"
               >
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -82,10 +88,10 @@ export default function Playground() {
                 GitHub
               </a>
               <a
-                href="https://www.npmjs.com/package/verification-layer"
+                href="https://app.vlayer.app/pricing"
                 className="bg-blue-600 text-white px-4 py-1.5 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
               >
-                Install CLI
+                Get Pro
               </a>
             </div>
           </div>
